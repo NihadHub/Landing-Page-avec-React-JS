@@ -71,6 +71,7 @@ function Hero(){
             </div>
 
         </section>
+        
     )
 
 

@@ -13,7 +13,7 @@ function Navbar(){
             NovaPro
         </a>
 
-        <ul className={`navbar-links ${menuOuver ? 'ouvert' : ''}`}>
+        <ul className={`navbar-links ${menuOuvert ? 'ouvert' : ''}`}>
 
         <li> <a href="#features" onClick={()=> setMenuOuvert(false)}>Fonctionnalités</a></li>
         <li> <a href="#about" onClick={() => setMenuOuvert(false)}>À propos</a></li>
